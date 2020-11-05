@@ -1,3 +1,4 @@
+import { Get } from './decorators/Routes';
 import { Response, Request, NextFunction } from 'express';
 import {
   BodyValidator,
